@@ -7,13 +7,184 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Dev-Test - Landing Page</title>
+<!-- Custom CSS -->
+    	<link href="css/style.css" rel="stylesheet"/>	
+	<link rel="stylesheet" href="css/animate.css">
+<!-- Custom JS -->
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>		 
+	<script src="js/transition.js"></script>
+	<script src="js/carousel.js"></script>
+	<script src="js/wow.js"></script>	
+	
+	<script type="text/javascript">
+		//conflict carousel
+		$(document).ready(function(){
+			$('#carousel-example-generic, #carousel-example-generic2').carousel({
+			interval: false
+			});						
+		});
+		//scroll
+		$(window).scroll(function() {
+			var scrollTop = $(window).scrollTop();
+			var divam = 1.2;
+		$(".section0").css({
+		  "top":scrollTop/divam+"px",
+		  "height":570-(Math.round(scrollTop/divam))+"px"
+			});
+			});
+		//WOW
+		new WOW().init();
+	</script>
 </head>
     <body >
+		<div class="section0"></div>
 		<header>
+			<div class="section1"  >
+				<div class="head">					
+					<div id="logo">
+						<img class="img-resp" src="images/logo_urban.png" alt=""/>
+					</div>
+				</div>
+				<div class="section-head">
+						<h1>Think affordable living in </br> sydney is out of reach?</h1>
+						<h3>Introducing the micro villas sydney.</h3>
+						<p>Lifestyle designed affordable living in sydney.</br> Live close to work, family and community.</p>
+						<div class="but-on"><a href="#">Register your interest</a></div>
+				</div>				
+			</div>
 		</header>
 		<section>
+			<div class="section2" id="top">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">					
+					
+					<!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="slide-img"><img src="images/gallery_item.jpg" alt="..."/></div>
+							<div class="carousel-caption con-tes">
+								<h2>What are Micro Villas 1</h2>
+								<p>Micro-living is a transitional stepping stone to independent living. it provides an affordable option for buyers in sydney. the concept of micro living is based on a fundamental belief in community, and that we are better together than apart. we can provide an enriched and more sustainable standard of living by gathering our resources in terms… of convenience, security and environmental impact.</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="slide-img"><img src="images/gallery_item.jpg" alt="..."/></div>
+							<div class="carousel-caption con-tes" >
+								<h2>What are Micro Villas 2</h2>
+								<p>Micro-living is a transitional stepping stone to independent living. it provides an affordable option for buyers in sydney. the concept of micro living is based on a fundamental belief in community, and that we are better together than apart. we can provide an enriched and more sustainable standard of living by gathering our resources in terms… of convenience, security and environmental impact.</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="slide-img"><img src="images/gallery_item.jpg" alt="..."/></div>
+							<div class="carousel-caption con-tes">
+								<h2>What are Micro Villas 3 </h2>
+								<p>Micro-living is a transitional stepping stone to independent living. it provides an affordable option for buyers in sydney. the concept of micro living is based on a fundamental belief in community, and that we are better together than apart. we can provide an enriched and more sustainable standard of living by gathering our resources in terms… of convenience, security and environmental impact.</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="slide-img"><img src="images/gallery_item.jpg" alt="..."/></div>
+							<div class="carousel-caption con-tes">
+								<h2>What are Micro Villas 4</h2>
+								<p>Micro-living is a transitional stepping stone to independent living. it provides an affordable option for buyers in sydney. the concept of micro living is based on a fundamental belief in community, and that we are better together than apart. we can provide an enriched and more sustainable standard of living by gathering our resources in terms… of convenience, security and environmental impact.</p>
+							</div>
+						</div>					
+					  </div>
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators" id="indi1">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="3"></li>					  
+					  </ol>	
+				</div>
+				<div style="height:2px;width:60%;background-color:#b98436;margin:10px auto;"></div>
+				<div class="section3 wow fadeInUp" >				
+				<h2>The Benefits of CommunityLiving</h2>
+				<p>Studies have shown that 90% of time at home is spent occupying less than 40% of the space. It just doesnʼt make sense. Why not leverage all that unused space in a combined and efficient way for the of benefit of a whole community? That increased shared space also offers added benefits in providing just a few of this impressive range of features.</p>
+				<div class="cont-mod">
+					<div class="mod">
+						<img src="images/ico_1.svg" alt="">
+						<h4>Relax e Revive - Roof decks</h4>
+						<p>Roof spaces frequently tend to gounused in Australian homes, which is strange considering our fantastic weather, their size, space and natural light opportunities.</p>
+					</div>
+					<div class="mod">
+						<img src="images/ico_2.svg" alt="">
+						<h4>Wide Open Wellness</h4>
+						<p>Adding together what ordinarily would be a metre of lawn in a Sydney property, creates one mighty Health & Well-Beingʼ lawn in the MicroVillas. As well as this Activity Spaces are also created.</p>
+					</div>
+					<div class="mod">
+						<img src="images/ico_3.svg" alt="">
+						<h4>Cutting Edge Communities</h4>
+						<p>Added space allows for added value in technology terms. The Micro Villas provide IT & Learning Centres. This allows residents to work from home or pursue education opportunities.</p>
+					</div>
+					<div class="mod">
+						<img src="images/ico_4.svg" alt="">
+						<h4>Combining Convenience</h4>
+						<p>Combined space also means access to larger and better quality amenities such as Mailing and Laundry hubs. All the convenience of laundromat right on your doorstep.</p>
+					</div>
+				</div>
+					<div class="but-on"><a href="#">Learn more</a></div>				
+				</div>		
+			</div>
+			<div class="section4">
+				<div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">					
+					<!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<h2>What The Local Community Has to Say 3 </h2>
+							<div class="slide-img2"><img src="images/profile_circle.png" alt="..."/></div>
+							<div class="carousel-caption con-tes2">
+								<div class="img-fum"><img src="images/triangle.png" alt="..."/></div>
+								<p>I am currently an enrolled nurse working part time at Norwest Private Hospital, and I currently live in North Rocks. I would be interested in finding out about other rental properties in the area. Oasis sounds and looks like a great place to live, as it is close to public transport and my workplace. I also love the modern design!</p>
+								<p style="color:#2D5960;"><b> - Michelle, 36</b></p>
+							</div>
+						</div>
+						<div class="item">
+							<h2>What The Local Community Has to Say 3 </h2>
+							<div class="slide-img2"><img src="images/profile_circle.png" alt="..."/></div>
+							<div class="carousel-caption con-tes2">
+								<div class="img-fum"><img src="images/triangle.png" alt="..."/></div>
+								<p>I am currently an enrolled nurse working part time at Norwest Private Hospital, and I currently live in North Rocks. I would be interested in finding out about other rental properties in the area. Oasis sounds and looks like a great place to live, as it is close to public transport and my workplace. I also love the modern design!</p>
+								<p style="color:#2D5960;"><b> - Michelle, 36</b></p>
+							</div>
+						</div>
+						<div class="item">
+							<h2>What The Local Community Has to Say 3 </h2>
+							<div class="slide-img2"><img src="images/profile_circle.png" alt="..."/></div>
+							<div class="carousel-caption con-tes2">								
+								<div class="img-fum"><img src="images/triangle.png" alt="..."/></div>
+								<p>I am currently an enrolled nurse working part time at Norwest Private Hospital, and I currently live in North Rocks. I would be interested in finding out about other rental properties in the area. Oasis sounds and looks like a great place to live, as it is close to public transport and my workplace. I also love the modern design!</p>
+								<p style="color:#2D5960;"><b> - Michelle, 36</b></p>
+							</div>
+						</div>										
+					  </div>
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators" id="indi2">
+						<li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic2" data-slide-to="2"></li>					  
+					  </ol>		
+				</div>		
+			</div>
+			<div class="section5">
+				<div class="form wow fadeInUp">
+					<div class="inform">
+						<h2>Like to know more?</h2>
+						<p>Register your details below to and weʼll be in touch with more information on the Micro Villas project.</p>
+					</div>
+					<form action="#">							
+						<input type="text" name="firstname" value="Name"><br><br>							
+						<input type="text" name="lastname" value="Last Name"><br><br>
+						<input type="text" name="email" value="Email"><br><br>
+						<input type="text" name="number" value="Number"><br><br>
+						<button type="submit" value="Submit">Learn More</button>
+					</form> 
+					<p style="font-size:12px;padding-bottom:2px;">By clicking ‘LearnMoreʼ, you agree to your personal information being collected, held used and disclosed by us in accordance with Urban Revolutions "Privacy Policy”</p>
+				</div>
+			</div>
 		</section>
 		<footer>
-		</footer>
+		<p>&copy; Urban Revolution</p>
+		</footer>		
 	</body>
 </html>
