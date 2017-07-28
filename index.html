@@ -18,6 +18,12 @@
 	<script src="js/wow.js"></script>	
 	
 	<script type="text/javascript">
+		//conflict carousel
+		$(document).ready(function(){
+			$('#carousel-example-generic, #carousel-example-generic2').carousel({
+			interval: false
+			});						
+		});
 		//WOW
 		new WOW().init();
 	</script>
@@ -108,8 +114,48 @@
 						<p>Combined space also means access to larger and better quality amenities such as Mailing and Laundry hubs. All the convenience of laundromat right on your doorstep.</p>
 					</div>
 				</div>
-				<div class="but-on"><a href="#">Learn more</a></div>				
-			</div>		
+					<div class="but-on"><a href="#">Learn more</a></div>				
+				</div>		
+			</div>
+			<div class="section4">
+				<div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">					
+					<!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<h2>What The Local Community Has to Say 3 </h2>
+							<div class="slide-img2"><img src="images/profile_circle.png" alt="..."/></div>
+							<div class="carousel-caption con-tes2">
+								<div class="img-fum"><img src="images/triangle.png" alt="..."/></div>
+								<p>I am currently an enrolled nurse working part time at Norwest Private Hospital, and I currently live in North Rocks. I would be interested in finding out about other rental properties in the area. Oasis sounds and looks like a great place to live, as it is close to public transport and my workplace. I also love the modern design!</p>
+								<p style="color:#2D5960;"><b> - Michelle, 36</b></p>
+							</div>
+						</div>
+						<div class="item">
+							<h2>What The Local Community Has to Say 3 </h2>
+							<div class="slide-img2"><img src="images/profile_circle.png" alt="..."/></div>
+							<div class="carousel-caption con-tes2">
+								<div class="img-fum"><img src="images/triangle.png" alt="..."/></div>
+								<p>I am currently an enrolled nurse working part time at Norwest Private Hospital, and I currently live in North Rocks. I would be interested in finding out about other rental properties in the area. Oasis sounds and looks like a great place to live, as it is close to public transport and my workplace. I also love the modern design!</p>
+								<p style="color:#2D5960;"><b> - Michelle, 36</b></p>
+							</div>
+						</div>
+						<div class="item">
+							<h2>What The Local Community Has to Say 3 </h2>
+							<div class="slide-img2"><img src="images/profile_circle.png" alt="..."/></div>
+							<div class="carousel-caption con-tes2">								
+								<div class="img-fum"><img src="images/triangle.png" alt="..."/></div>
+								<p>I am currently an enrolled nurse working part time at Norwest Private Hospital, and I currently live in North Rocks. I would be interested in finding out about other rental properties in the area. Oasis sounds and looks like a great place to live, as it is close to public transport and my workplace. I also love the modern design!</p>
+								<p style="color:#2D5960;"><b> - Michelle, 36</b></p>
+							</div>
+						</div>										
+					  </div>
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators" id="indi2">
+						<li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic2" data-slide-to="2"></li>					  
+					  </ol>		
+				</div>		
 			</div>
 		</section>
 		<footer>
