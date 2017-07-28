@@ -218,7 +218,6 @@ footer p{
 	font-size:12px;
 }
 /*Carousel */
-
 .carousel {
   position: relative;
 }
@@ -257,7 +256,6 @@ footer p{
     margin: 0 auto;
 	left:10%;
 }
-
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
     -webkit-transition: -webkit-transform .6s ease-in-out;
@@ -446,3 +444,89 @@ footer p{
 .con-tes .btn {
   text-shadow: none;
 }
+@media screen and (min-width: 768px) {
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px;
+  }
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .icon-prev {
+    margin-left: -10px;
+  }
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next {
+    margin-right: -10px;
+  }
+  .con-tes {
+    padding:0 30px;
+	display: inline-block;
+	margin: 0 auto;
+	width: 350px;
+	text-align: left;
+  }
+  .con-tes2 {
+    padding:0 30px;
+	display: inline-block;
+	margin: 20px auto;
+	max-width: 500px;
+	text-align: left;
+	background:#dddddd;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+  }
+  .carousel-indicators {
+    bottom: 20px;
+  } 
+}
+@media screen and (max-width: 768px) {
+	.section0{
+		background-position: center center;
+	}
+	.section2{
+		text-align:center;
+	}
+	.con-tes{
+		width:90%;
+		margin:0 auto;
+	}
+	.section2{
+		padding:20px;
+	}
+	.mod {
+    width: 45%;
+	}
+	.slide-img2{
+		left: 0;
+		text-align: center;
+		float:none;
+	}
+}
+@media screen and (max-width: 360px) {
+	.section0{
+		height:1000px;
+	}
+	.section-head {
+    padding: 20px 20px 5px;
+	}
+	.section1 h1 {
+    font-size: 30px;
+	}	
+	.head {
+    padding-bottom: 20px;
+	}
+	.mod {
+    width: 100%;
+	padding:0;
+	float:none;
+	}
+	.section5{
+		padding:5px;
+	}
+}
+
