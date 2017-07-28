@@ -115,6 +115,57 @@ text-transform: uppercase;
     max-width: 1200px;
 }
 
+.section3{
+    background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffffff, #efefef); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #efefef); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #efefef); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #efefef); /* Standard syntax */
+	margin: 20px auto 10px;
+    padding: 20px 0;
+    max-width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+.section3 h2{
+	font-size:24px;
+	font-weight:700;
+}
+.cont-mod{
+	overflow:hidden;
+}
+.mod {
+    width: 23%;
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+.mod p {
+    font-size: 16px;
+}
+
+.section4 {
+	background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffffff, #efefef); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #efefef); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #efefef); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #efefef); /* Standard syntax */
+    margin: 20px auto 10px;
+    padding: 20px;
+	text-align:center;
+}
+.section4 h2{
+	font-size:24px;
+	font-weight:700;
+}
+.img-fum {
+    position: absolute;
+    left: -45px;
+    top: 120px;
+}
+.img-fum  p{
+	font-size:14px;
+}
 
 /*Carousel */
 
