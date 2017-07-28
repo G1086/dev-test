@@ -8,3 +8,104 @@ body {
    padding:0;
    margin:0;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+a {
+  color: #212121;
+}
+a:hover,
+a:focus {
+  color: #b98436;
+}
+@font-face {
+  font-family: 'Lato Bold Italic';
+  src: url(../font/lato-bolditalic.eot);
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(../font/lato-bolditalic.eot), url(../font/lato-bolditalic.woff2) format('woff2'), url(../font/lato-bolditalic.woff) format('woff'), url(../font/lato-bolditalic/lato-bolditalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url(../font/lato-light.eot);
+  src: local('Lato Light'), local('Lato-Light'), url(../font/lato-light.eot), url(../font/lato-light.woff2) format('woff2'), url(../font/lato-light.woff) format('woff'), url(../font/lato-light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato Light Italic';
+  src: url(../font/lato-lightitalic.eot);
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(../font/lato-lightitalic.eot), url(../font/lato-lightitalic.woff2) format('woff2'), url(../font/lato-lightitalic.ttf);
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Lato Semi Bold';
+  src: url(../font/lato-semibold.eot);
+  src: local('Lato Semi Bold'), local('Lato-SemiBold'), url(../font/lato-semibold.eot), url(../font/lato-semibold.woff2) format('woff2'), url(../font/lato-semibold.woff) format('woff'), url(../font/lato-semibold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.section0 { 
+	width:100%; 
+	position:absolute; 
+	top:0px; 
+	left:0px; 
+	background-image:url("../images/bg_top.jpg");
+	z-index:1;
+	height:570px;
+}
+.section1 {
+	z-index:2; 
+	background-position:center;
+	position:relative;
+	text-align:center;
+	color:#ffffff;	
+	background-color:rgba(0, 0, 0, 0.65);
+	
+}
+.section1 h1{
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size:39px;
+	font-family:'Lato Semi Bold';
+}
+.section1 h3{
+	font-size:24px;
+	text-transform: uppercase;
+}
+.head{
+	margin:0 auto;
+	padding:40px 20px 40px;
+	border-bottom:2px solid #b98436;	
+}
+.section-head{
+	padding:40px 20px 40px;;
+}
+.but-on{
+background: #b98436;
+width: 230px;
+height: 25px;
+margin: 40px auto 10px;
+text-align: center;
+padding: 15px;
+text-transform: uppercase;
+}
+.but-on a{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform:uppercase;
+}
