@@ -24,6 +24,15 @@
 			interval: false
 			});						
 		});
+		//scroll
+		$(window).scroll(function() {
+			var scrollTop = $(window).scrollTop();
+			var divam = 1.2;
+		$(".section0").css({
+		  "top":scrollTop/divam+"px",
+		  "height":570-(Math.round(scrollTop/divam))+"px"
+			});
+			});
 		//WOW
 		new WOW().init();
 	</script>
