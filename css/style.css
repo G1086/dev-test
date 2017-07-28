@@ -167,6 +167,56 @@ text-transform: uppercase;
 	font-size:14px;
 }
 
+.section5{
+	background:url("../images/bg_footer.jpg") center 0 no-repeat scroll #fff;
+	background-size:cover;
+	padding:10px;
+	padding: 50px;
+}
+.form {
+    margin: 10px auto;
+    max-width: 500px;
+    background: rgba(0,0,0,0.65);
+	text-align: center;
+	color:#fff;
+}
+.inform {
+    background: #2D5960;
+    padding: 10px;
+    margin: 0 0 18px;
+	text-align: center;
+	color: #ddd;
+}
+.section5 h2{
+	font-size:24px;
+	font-weight:700;
+}
+form {
+    padding: 0 23px;
+}
+input {
+    background: transparent;
+    color: #b0b0b0;
+    text-align: center;
+    padding: 9px 57px;
+    border: 1px solid #b0b0b0;
+}
+.form button {
+    background: #b98436;
+    padding: 6px;
+    border: 1px solid;
+    width: 230px;
+}
+
+footer{
+	background: #2D5960;
+    padding: 20px;	
+}
+footer p{
+	color:#fff;
+	text-align:center;
+	font-size:12px;
+}
 /*Carousel */
 
 .carousel {
@@ -207,6 +257,7 @@ text-transform: uppercase;
     margin: 0 auto;
 	left:10%;
 }
+
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
     -webkit-transition: -webkit-transform .6s ease-in-out;
